@@ -309,7 +309,7 @@ Bron: https://learnxinyminutes.com/docs/javascript/
 
 class: impact
 
-## Dit kan simpler...
+## Dit kan eenvoudiger...
 
 ---
 
