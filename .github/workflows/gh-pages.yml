@@ -14,7 +14,7 @@ jobs:
       with:
         node-version: '10.x'
     - name: Install backslide
-      run: yarn add backslide
+      run: yarn add backslide@2.1.0
     - name: Build dist
       run: ./node_modules/.bin/bs export
     - name: rename index.html

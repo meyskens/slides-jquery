@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "backslide": "^2.3.7"
+    "backslide": "2.1.0"
   }
 }
