@@ -640,3 +640,9 @@ console.log($("#console-demo"));
 * Aanpassen? `$().addClass()` `$().text()`
 * Events -> Acties van gebruikers `$().click(function(){})`
 * console.log() -> Debug hulp `console.log("Bericht")`
+
+---
+class:impact
+
+## Slides: https://jquery-1.maartje.dev/
+## PDF: https://jquery-1.maartje.dev/presentation.pdf
