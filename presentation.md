@@ -644,5 +644,5 @@ console.log($("#console-demo"));
 ---
 class:impact
 
-## Slides: https://jquery-1.maartje.dev/
-## PDF: https://jquery-1.maartje.dev/presentation.pdf
+## Slides: https://maartje.dev/slides-jquery/
+## PDF: https://maartje.dev/slides-jquery/presentation.pdf
