@@ -14,9 +14,11 @@ jobs:
       with:
         node-version: '10.x'
     - name: Install backslide
-      run: yarn add backslide@2.1.0
+      run: yarn add backslide@2.3.7
     - name: Build dist
       run: ./node_modules/.bin/bs export
+    - name: Fix file:// rename
+      run: sed -i "s?file://$(pwd)/??g" dist/presentation.html
     - name: rename index.html
       run: mv ./dist/presentation.html ./dist/index.html
     - name: Build pdf
