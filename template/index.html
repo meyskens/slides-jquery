@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{title}}</title>
+  {{{style}}}
+  <script src="remark.min.js"></script>  
+  <script>
+    function create() {
+      return remark.create({
+        {{{source}}},
+        ratio: '16:9',
+        highlightLines: true,
+        countIncrementalSlides: false,
+        highlightStyle: 'github'
+      });
+    }
+  </script>
+</head>
+<body onload="slideshow = create()">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="jq_custom.js"></script> 
+</body>
+</html>
